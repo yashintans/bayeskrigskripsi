@@ -14,7 +14,7 @@ library(raster)
 ########## EKSPLORASI DATA ##########
 
 # Input data
-dta0 <- read.csv("CHJabar.csv",sep=";")
+dta0 <- read.csv("CHJabar.csv",sep=",")
 
 # Membuat dataframe statistik deskriptif
 eda_df <- data.frame(bulan="none",rata2=0,minimum=0,q1=0,median=0,q3=0,
